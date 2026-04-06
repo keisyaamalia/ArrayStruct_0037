@@ -37,5 +37,11 @@ int main()
         cout << "isikan data ke-" << (i + 1) << " : ";
         cin >> datamu[i];
     }
+    
+    // menampilkan data dengan perulangan
+    for (int i = 0; i <=4; i++)
+    {
+        cout << "data ke-" << (i + 1) << " : " << datamu[i] << endl;
+    }
 
 }
