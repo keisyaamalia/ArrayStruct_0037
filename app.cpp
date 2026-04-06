@@ -11,5 +11,17 @@ int main()
     // mengisi array
     dataku[1] = 200;
     cout << " isi data kedua setelah dirubah : " << dataku[1] << endl;
+    
+    // mengisi data dengan perintah satu persatu 
+    cout << "isikan data pertama : ";
+    cin >> datamu[0];
+    cout << "isikan data kedua : ";
+    cin >> datamu [1];
+    cout << "isikan data ketiga : ";
+    cin >> datamu [2];
+    cout << "isikan data keempat : ";
+    cin >> datamu [3];
+    cout << "isikan data kelima : ";
+    cin >> datamu [4];
 
 }
